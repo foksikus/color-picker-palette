@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+    box-sizing: content-box;
+}
+
+#html-picker {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    width: 100%;
+}
+
+#html-picker>.box {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+
+}
